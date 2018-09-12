@@ -1,0 +1,60 @@
+/********** Base styles **********/
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: solid black 1px;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /*Restarant Name*/
+  color: #000;
+	font-size: 1.5em;
+	font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+
+#collapsable-nav {
+  border-color: #000;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list li {
+  border-bottom: 1px solid black;
+}
+
+#nav-list a {
+  background-color: #951C49;
+  color: #000;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+h2 {
+}
+
+section {
+  height: 1000px;
+}
